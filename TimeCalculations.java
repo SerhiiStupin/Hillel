@@ -6,11 +6,11 @@ public class TimeCalculations {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter time in seconds: ");
-        int time = input.nextInt();
+        System.out.println("Enter time in seconds here: ");
+        int t = input.nextInt();
 
-        int s = time % 60;
-        int m = time / 60;
+        int s = t % 60;
+        int m = t / 60;
         int h = m % 60;
         m = m / 60;
 
